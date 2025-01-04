@@ -1,12 +1,8 @@
-//cambio realiado por Vicente devesaO
-/*<?php
-@print "Hola {$argv[1]}\n"; 
-?>
-*/
+//ESTOY MAS PERDIDO QUE ......
 <?php
 //he comentado la anterior actividad escribiendo aquí abajo la nueva
-// El nombre por defecto es Mundo
-$nombre = isset($argv[1]) ? $argv[1] : "Mundo"; 
+
+$nombre =trim(fgets(STDIN)); 
 @print "Hola, {$nombre}\n";
 ?>
 
