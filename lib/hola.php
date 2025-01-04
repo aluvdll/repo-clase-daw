@@ -1,8 +1,9 @@
-//ESTOY MAS PERDIDO QUE ......
 <?php
-//he comentado la anterior actividad escribiendo aquí abajo la nueva
-
-$nombre =trim(fgets(STDIN)); 
-@print "Hola, {$nombre}\n";
+// Realizado por: Vicente Devesa LLorens <aluvdll1986@gmail.com>
+// EL NOMBRE POR DEFECTO ES : "mundo"
+	require ('HolaMundo.php');
+	print "Introduce tu nombre":
+	$nombre=trim(fgets(STDIN));
+	print new HolaMundo($nombre);
 ?>
 
